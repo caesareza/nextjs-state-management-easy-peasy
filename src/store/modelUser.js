@@ -1,6 +1,11 @@
+import { action } from "easy-peasy"
+
 const modelUser = {
     isLogin: false,
-    setUser: {}
+    user: {},
+    setUser: action((state, payload) => {
+        state.user = payload
+    })
 }
 
 export default modelUser

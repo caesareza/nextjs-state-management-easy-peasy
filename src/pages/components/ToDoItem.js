@@ -1,5 +1,4 @@
-import { useStoreState } from "easy-peasy";
-import { useStoreActions } from "easy-peasy";
+import { useStoreState, useStoreActions } from "easy-peasy";
 import { useEffect, useState } from "react";
 
 export default function ToDoItem() {
