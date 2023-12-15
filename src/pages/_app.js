@@ -1,5 +1,5 @@
 import "@/styles/globals.css";
-import Header from "./components/Header";
+import Header from "@/components/Header";
 import { StoreProvider } from "easy-peasy";
 import store from "@/store";
 

@@ -1,4 +1,4 @@
-import ToDoItem from "./components/ToDoItem";
+import ToDoItem from "@/components/ToDoItem";
 
 export default function MyTodo() {
   return (

@@ -1,4 +1,4 @@
-import ToDoItem from "./components/ToDoItem";
+import ToDoItem from "@/components/ToDoItem";
 
 import { useStoreActions } from "easy-peasy";
 
